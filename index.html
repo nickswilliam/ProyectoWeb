@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>
+            Bienvenid@s!
+        </h1>
+
+        <a href="index.html" class="h2-reg">
+            <h2>Registro</h2>
+        </a>
+        <a href="./access/access.html" class="h2-acc">
+            <h2>Ingreso</h2>
+        </a>
+        <div class="form">
+            <form action="./registered/registered.html" method="post">
+
+                <div class="content-box1">
+                    <div class="user">
+                        <input type="text" id="usuario" placeholder="Ingrese su usuario" required autocomplete="off">
+                    </div>
+
+                    <div class="mail">
+                        <input type="email" id="correo" placeholder="Ingrese su E-Mail" required autocomplete="off">
+                    </div>
+
+                    <div class="pass">
+                        <input type="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+                    </div>
+
+                    <div class="pass2">
+                        <input type="password" id="contraseña2" placeholder="Repita su contraseña" required>
+                    </div>
+                    <div class="agree">
+                        <label for="acepta">Acepta los términos? </label>
+                        <input type="checkbox" id="acepta" required>
+                    </div>
+
+                    <div class="but">
+                        <input type="submit" value="Registrarse">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
