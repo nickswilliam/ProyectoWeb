@@ -2,18 +2,23 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: rgb(33, 19, 36);
     color: rgb(176, 246, 255);
 }
 
+body {
+    background-image: url("../bg-type.jpg");
+    background-size: cover;
+}
+
 .container {
+    background: rgba(11, 0, 71, .6);
     color: rgb(176, 246, 255);
-    margin: 40px auto;
-    width: 400px;
-    height: 500px;
-    border-radius: 15px;
-    border: 2px solid rgb(176, 246, 255);
-    background: none;
+    margin: 10vh auto;
+    width: 450px;
+    height: 550px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 3px solid rgb(176, 246, 255);
     position: relative;
 }
 
